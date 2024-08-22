@@ -1,5 +1,7 @@
 add_executable(hello_adc
-        hello_adc.c
+        hello_adc.cpp
+        TemperatureSensor.cpp
+        Adc.cpp
         )
 
 target_link_libraries(hello_adc pico_stdlib hardware_adc)
